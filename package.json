@@ -1,9 +1,9 @@
 {
   "private": true,
-  "name": "cara",
-  "description": "Playful and Colorful One-Page portfolio featuring Parallax effects and animations",
-  "version": "0.2.15",
-  "author": "LekoArts",
+  "name": "antonio_luna_portfolio",
+  "description": "Portfolio site for Antonio Luna. Built with Gatsby with a theme by LekoArts.",
+  "version": "1.0.0",
+  "author": "XAntonioLuna",
   "license": "0BSD",
   "starter-name": "gatsby-starter-portfolio-cara",
   "scripts": {
@@ -13,13 +13,13 @@
     "build:cypress": "cross-env CYPRESS_SUPPORT=y yarn build",
     "start": "gatsby develop",
     "serve": "gatsby serve",
-    "clean": "gatsby clean"
+    "clean": "gatsby clean",
+    "deploy": "gatsby build && gh-pages -d public -b main"
   },
   "dependencies": {
     "@lekoarts/gatsby-theme-cara": "^5.1.4",
     "gatsby": "^5.12.12",
     "gatsby-plugin-manifest": "^5.12.3",
-    "gatsby-plugin-webpack-statoscope": "^1.0.3",
     "react": "^18.2.0",
     "react-dom": "^18.2.0"
   },
@@ -28,6 +28,7 @@
     "@types/react": "^18.2.42",
     "@types/react-dom": "^18.2.17",
     "cross-env": "^7.0.3",
+    "gh-pages": "^6.1.1",
     "typescript": "^5.3.3"
   }
 }
