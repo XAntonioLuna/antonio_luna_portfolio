@@ -9,8 +9,8 @@ const config: GatsbyConfig = {
     siteTitleAlt: `Antonio Luna`,
     siteHeadline: `Antonio Luna - Portfolio`,
     siteUrl: `https://xantonioluna.github.io/`,
-    siteDescription: `Portfolio site for Antonio Luna. Built with Gatsby with a theme by LekoArts.`,
-    siteImage: `/banner.jpg`,
+    siteDescription: `Portfolio site for Antonio Luna. Software Engineer with a passion for product engineering and growth.`,
+    siteImage: `/banner.png`,
     siteLanguage: `en`,
     author: `@XAntonioLuna`,
   },
@@ -26,7 +26,7 @@ const config: GatsbyConfig = {
       options: {
         name: `Antonio Luna - Portfolio`,
         short_name: `Antonio Luna`,
-        description: `Portfolio site for Antonio Luna. Built with Gatsby with a theme by LekoArts.`,
+        description: `Portfolio site for Antonio Luna. Software Engineer with a passion for product engineering and growth.`,
         start_url: `/`,
         background_color: `#141821`,
         // This will impact how browsers show your PWA/website
