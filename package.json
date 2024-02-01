@@ -14,7 +14,7 @@
     "start": "gatsby develop",
     "serve": "gatsby serve",
     "clean": "gatsby clean",
-    "deploy": "gatsby build && gh-pages -d public -b main"
+    "deploy": "gatsby build && gh-pages -d public -b main --repo git@github.com:XAntonioLuna/XAntonioLuna.github.io.git"
   },
   "dependencies": {
     "@lekoarts/gatsby-theme-cara": "^5.1.4",
